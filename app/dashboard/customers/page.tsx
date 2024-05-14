@@ -1,12 +1,10 @@
-"use client";
 import {Metadata} from "next";
-import {useFormState} from "react-dom";
 import {getGooglePage} from "@/app/lib/action";
 import {Suspense} from "react";
 
-// export const metadata: Metadata = {
-//   title: 'Customers',
-// };
+export const metadata: Metadata = {
+  title: 'Customers',
+};
 
 export default async function () {
   return <div className="w-full">
