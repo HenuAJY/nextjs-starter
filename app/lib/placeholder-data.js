@@ -180,7 +180,7 @@ const revenue = [
   { month: 'Dec', revenue: 4800 },
 ];
 
-export {
+module.exports = {
   users,
   customers,
   invoices,
